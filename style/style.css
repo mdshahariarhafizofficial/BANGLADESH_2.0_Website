@@ -37,6 +37,11 @@ body{
     background: red;
     transition: 0.5s;
 }
+.sec-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
 
 /* Header Section Style */
 
@@ -50,6 +55,12 @@ header .nav-logo{
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header .nav-logo img{
+    width: 55px;
 }
 header .nav-btn button{
     padding: 15px 30px;
@@ -99,6 +110,38 @@ header .nav-btn button:hover{
 }
 
 /* Main Section Style */
+
+/* Pillers Section Style */
+.pillars-section{
+    margin-bottom: 100px;
+}
+.pillars-section .pillars-items{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.pillars-section .pillars-items .piller-card{
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15);
+}
+.pillars-section .pillars-items .piller-card img{
+    width: 64px;
+    margin-bottom: 20px;
+}
+.pillars-section .pillars-items .piller-card h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillars-section .pillars-items .piller-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 /*  Section Style */
 
