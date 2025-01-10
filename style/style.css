@@ -247,7 +247,48 @@ header .nav-btn button:hover{
     margin-bottom: 12px;
 }
 
-/*  Section Style */
+/*   opinion Section Style */
+.opinion-section{
+    margin-bottom: 100px;
+}
+.opinion-section .opinion-box{
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+}
+.opinion-section .opinion-box table{
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+}
+.opinion-section .opinion-box table thead tr th{
+    padding: 24px;
+    text-align: justify;
+    background: rgba(198, 228, 214, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+.opinion-section .opinion-box table tbody tr td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: left;
+    padding: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.t-dw{
+    width: 180px;
+}
+.opinion-section .opinion-box table tbody tr td select{
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(198, 228, 214, 1);
+    border-radius: 4px;
+    border-color: rgba(14, 14, 14, 1);
+}
+
+
 /*  Section Style */
 /*  Section Style */
 
