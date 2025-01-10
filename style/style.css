@@ -322,7 +322,48 @@ header .nav-btn button:hover{
 }
 
 
-/*  Section Style */
+/*  Donate Section Style */
+.donate-section{
+    margin-bottom: 50px;
+}
+.donate-section .donate-text{
+    text-align: center;
+}
+.donate-section .donate-card-box{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+#select-color{
+    background: rgba(198, 228, 214, 1);
+}
+.donate-section .donate-card-box .donate-amount{
+    width: 240px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.donate-section .donate-form {
+    text-align: center;
+}
+.donate-section .donate-form form #amount{
+    display: block;
+    width: 90%;
+    text-align: center;
+    padding: 20px 40px;
+    background: white;
+    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.10);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 20px;
+}
+
 /*  Section Style */
 /*  Section Style */
 /*  Section Style */
