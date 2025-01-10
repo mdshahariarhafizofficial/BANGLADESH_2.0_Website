@@ -121,23 +121,23 @@ header .nav-btn button:hover{
     justify-content: space-between;
     margin-top: 30px;
 }
-.pillars-section .pillars-items .piller-card{
+.pillars-section .pillars-items .pillar-card{
     background: white;
     padding: 24px;
     border-radius: 16px;
     box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15);
 }
-.pillars-section .pillars-items .piller-card img{
+.pillars-section .pillars-items .pillar-card img{
     width: 64px;
     margin-bottom: 20px;
 }
-.pillars-section .pillars-items .piller-card h4{
+.pillars-section .pillars-items .pillar-card h4{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
     color: rgba(14, 14, 14, 0.8);
 }
-.pillars-section .pillars-items .piller-card p{
+.pillars-section .pillars-items .pillar-card p{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
