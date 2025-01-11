@@ -233,7 +233,7 @@ header .nav-btn button:hover{
 .quote-section .quote-content{
     background: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: 24px 24px;
+    background-position: 24px 21px;
     background-color: #fff;
     padding: 48px 24px;
     border-radius: 16px;
@@ -304,6 +304,7 @@ header .nav-btn button:hover{
 }
 .news-section .news-container img{
     border-radius: 24px;
+    width: 408px;
 }
 .news-section .news-container .news-details h4{
     font-size: 32px;
@@ -312,10 +313,13 @@ header .nav-btn button:hover{
 }
 .news-section .news-container .news-details span{
     margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 .news-section .news-container .news-details img{
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 150px;
 }
 .news-section .news-container .news-details button{
     margin-top: 20px;
@@ -362,6 +366,7 @@ header .nav-btn button:hover{
     font-size: 20px;
     font-weight: 500;
     margin: 30px 20px;
+    outline: none;
 }
 
 /*  Newsletter Section Style */
@@ -383,7 +388,6 @@ header .nav-btn button:hover{
 }
 .newsletter-section .newsletter-form #email{
     width: 600px;
-    text-align: center;
     padding: 18px 40px;
     background: white;
     box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.10);
@@ -391,6 +395,8 @@ header .nav-btn button:hover{
     font-size: 20px;
     font-weight: 500;
     border-radius: 8px 0 0 8px;
+    outline: none;
+    text-align: left;
 }
 .newsletter-section .newsletter-form #newsletter-btn{
     width: 150px;
@@ -412,4 +418,18 @@ footer img{
 }
 footer #h-row{
     background: rgba(14, 14, 14, 0.1);
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.footer-logo > img{
+    width: 60px;
+    margin: 0;
+}
+.footer-logo > h2{
+    margin: 0;
 }
