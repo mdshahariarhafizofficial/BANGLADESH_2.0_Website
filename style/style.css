@@ -84,6 +84,7 @@ header .nav-btn button:hover{
     color: red;
     border: 1px solid red;
     transition: 0.5s;
+    background: white;
 }
 
 /* Hero style */
@@ -446,4 +447,7 @@ footer #h-row{
 }
 .footer-logo > h2{
     margin: 0;
+}
+footer .social-icon a{
+    text-decoration: none;
 }
