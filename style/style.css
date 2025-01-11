@@ -134,7 +134,7 @@ header .nav-btn button:hover{
     background: white;
     padding: 24px;
     border-radius: 16px;
-    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15);
+    /* box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15); */
 }
 .pillars-section .pillars-items .pillar-card img{
     width: 62px;
@@ -171,7 +171,7 @@ header .nav-btn button:hover{
     width: 410px;
     padding: 32px;
     border-radius: 16px;
-    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15);
+    /* box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15); */
 }
 .future-section .future-card-container .future-card h4{
     font-size: 18px;
@@ -196,6 +196,10 @@ header .nav-btn button:hover{
     border: none;
     cursor: pointer;
 }
+.future-section .future-card-container .future-card .button-1:hover{
+    background: #000;
+    transition: 0.5s;
+}
 .future-section .future-card-container .future-card .button-2{
     padding: 11px 20px;
     background: rgba(9, 161, 92, 1);
@@ -206,6 +210,10 @@ header .nav-btn button:hover{
     border: none;
     cursor: pointer;
 }
+.future-section .future-card-container .future-card .button-2:hover{
+    background: #000;
+    transition: 0.5s;
+}
 .future-section .future-card-container .future-card .button-3{
     padding: 11px 20px;
     background: rgba(255, 194, 57, 1);
@@ -215,6 +223,10 @@ header .nav-btn button:hover{
     font-weight: 600;
     border: none;
     cursor: pointer;
+}
+.future-section .future-card-container .future-card .button-3:hover{
+    background: #000;
+    transition: 0.5s;
 }
 .bg-1{
     background: rgba(84, 144, 245, 0.2);
@@ -237,7 +249,6 @@ header .nav-btn button:hover{
     background-color: #fff;
     padding: 48px 24px;
     border-radius: 16px;
-    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15);
 }
 .quote-section .quote-content h4{
     font-size: 18px;
@@ -297,7 +308,6 @@ header .nav-btn button:hover{
     background: white;
     padding: 48px;
     border-radius: 24px;
-    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.15);
     display: flex;
     gap: 32px;
     margin-bottom: 24px;
@@ -341,6 +351,7 @@ header .nav-btn button:hover{
 }
 #select-color{
     background: rgba(198, 228, 214, 1);
+    color: #0E0E0E;
 }
 .donate-section .donate-card-box .donate-amount{
     width: 240px;
@@ -352,6 +363,11 @@ header .nav-btn button:hover{
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
 }
+.donate-section .donate-card-box .donate-amount:hover{
+    background: #006A50;
+    color: white;
+    transition: 0.5s;
+}
 .donate-section .donate-form {
     text-align: center;
 }
@@ -361,7 +377,6 @@ header .nav-btn button:hover{
     text-align: center;
     padding: 20px 40px;
     background: white;
-    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.10);
     border: none;
     font-size: 20px;
     font-weight: 500;
@@ -390,7 +405,6 @@ header .nav-btn button:hover{
     width: 600px;
     padding: 18px 40px;
     background: white;
-    box-shadow: 0px 6px 50px rgba(14, 14, 14, 0.10);
     border: none;
     font-size: 20px;
     font-weight: 500;
