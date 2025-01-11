@@ -250,6 +250,7 @@ header .nav-btn button:hover{
     background-color: #fff;
     padding: 48px 24px;
     border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.2);
 }
 .quote-section .quote-content h4{
     font-size: 18px;
